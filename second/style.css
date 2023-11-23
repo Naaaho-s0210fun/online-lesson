@@ -1,0 +1,152 @@
+/* PC、スマホ共通スタイル */
+body {
+  font-family: Noto Sans Japanese, suns-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*==============
+PC用スタイル
+===============*/
+/* 横幅設定 */
+body {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+/* ヘッダー*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  font-size: 34px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  }
+#myprofile > a {
+  border: 1px solid #000000;
+  text-decoration: none;
+  color: #000000;
+  padding: 0 10px;
+  margin-right: 20px;
+ 
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc {
+  margin: 30px 0 0 300px;
+}
+#nav-pc > a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+#nav-pc > a:link {
+  color: #000000;
+}
+#nav-pc > a:visited {
+  color: #000000;
+}
+#nav-pc > a:hover {
+  color: #000000;
+}
+#nav-pc > a:active {
+  color: #000000;
+}
+
+/* メインビジュアル */
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* About */
+
+h1 {
+  font-size: 34px;
+  text-align: center;
+  margin: 70px 0;
+  
+}
+.profile {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.profile > img {
+  width: 19%;
+  
+  border-radius: 50%;
+  border:double 5px #808080;
+  margin: 25px 130px 0 0;
+}
+h2 {
+  font-size: 24px;
+  
+}
+li {
+  margin-left: 35px;
+  font-size: 18px;
+  
+}
+
+/* Works */ 
+
+#works-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photo {
+  width: 16%;
+  margin: 10px;
+}
+p {
+  width: 100%;
+  font-size: 18px;
+}
+
+/* フッター */
+hooter > p {
+  font-size: 18px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+ 
+/* スマホ用スタイル */
+@media screen and (max-width: 767px) {
+
+/* ヘッダー */
+header {
+justify-content: left;
+}
+#nav-pc {
+  display: inline-block;
+  margin: 5px 0;
+}
+#myprofile {
+  margin: 15px 0 0 15px;
+  text-align: left;
+}
+
+/* About */
+.profile > img {
+ margin: 0;
+ width: 70%;
+}
+
+/* Works */
+.photo {
+  width: 90%;
+}
+
+}
+
+
+
+
